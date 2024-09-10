@@ -1,0 +1,18 @@
+/*common region*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bool-black: #000;
+    --bool-white: #fff;
+    --bool-header-bg: #ff6900;
+    --bool-discount-bg: #ff0000;
+    --bool-red-price: #ff2718;
+    --bool-sostenibilità-bg: #008000;
+}
+
+/*end common region*/
