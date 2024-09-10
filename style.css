@@ -18,8 +18,13 @@
 /*end common region*/
 
 /*common region*/
+
 header{
     background-color: var(--bool-header-bg);
+}
+
+main{
+    padding: 2rem;
 }
 
 img{
@@ -45,6 +50,8 @@ footer{
 .d-flex{
     display: flex;
     align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .space-around{
@@ -53,6 +60,10 @@ footer{
 
 .container{
     padding: 1rem;
+}
+
+.js-center{
+    justify-content: center;
 }
 
 /*end utilities region*/
@@ -69,7 +80,7 @@ nav > ul{
     }
 }
 
-.header-icons{
+.header-icons img{
     color: var(--bool-white);
 }
 
@@ -131,8 +142,19 @@ nav > ul{
 /*end main region*/
 
 /*footer region*/
-.justify-content-between{
+.flex-container{
     justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer > h3, .socials > h3{
+    color: var(--bool-white);
+    font-size: 1,5rem;
+}
+
+.socials img{
+    background-color: var(--bool-white);
+    width: 20px;
 }
 
 /*end footer region*/
