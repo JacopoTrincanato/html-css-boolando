@@ -18,6 +18,9 @@
 /*end common region*/
 
 /*common region*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header{
     background-color: var(--bool-header-bg);
@@ -75,6 +78,7 @@ footer{
 
 nav > ul{
     display: flex;
+    
     li{
         margin-right: 5px;
     }
@@ -142,11 +146,17 @@ nav > ul{
 /*end main region*/
 
 /*footer region*/
-.flex-container{
+.flex{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.content{
+    width: 80%;
+    margin: auto;
+    padding: 1.5rem;
+}
 .left-footer > h3, .socials > h3{
     color: var(--bool-white);
     font-size: 1,5rem;
@@ -155,6 +165,8 @@ nav > ul{
 .socials img{
     background-color: var(--bool-white);
     width: 20px;
+    padding: 2px;
+    margin: 0 3px;
 }
 
 /*end footer region*/
