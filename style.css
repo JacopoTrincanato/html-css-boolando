@@ -117,6 +117,10 @@ nav > ul{
     display: block;
 }
 
+.heart:hover{
+    color: red;
+}
+
 .product-middle{
     position: absolute;
     left: 0;
