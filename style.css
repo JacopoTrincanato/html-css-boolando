@@ -74,3 +74,47 @@ nav > ul{
 }
 
 /*end header region*/
+
+/*main region*/
+.product{
+    position: relative;
+    width: 400px;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 1.5rem;
+    background-color: var(--bool-white);
+    padding: .5rem;
+
+}
+
+.product-middle{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+
+.discount, .sostenibilità{
+    color: var(--bool-white);
+    padding: 5px;
+}
+
+.discount{
+    background-color: var(--bool-discount-bg);
+}
+
+.sostenibilità{
+    background-color: var(--bool-sostenibilità-bg);
+}
+
+.red-price{
+    color: var(--bool-red-price);
+}
+
+.price-lined{
+    text-decoration: line-through;
+}
+/*end main region*/
