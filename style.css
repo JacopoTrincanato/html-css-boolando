@@ -94,7 +94,7 @@ nav > ul{
     display: none;
 }
 
-.main-image:hover{
+.product:hover .main-image{
     display: none;
 }
 
@@ -129,3 +129,10 @@ nav > ul{
     text-decoration: line-through;
 }
 /*end main region*/
+
+/*footer region*/
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/*end footer region*/
