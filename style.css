@@ -85,7 +85,7 @@ nav > ul{
 }
 
 .header-icons img{
-    color: var(--bool-white);
+    filter: invert(100%);
 }
 
 /*end header region*/
